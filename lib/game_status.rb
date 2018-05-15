@@ -63,6 +63,7 @@ end
 
 def winner(board)
   if win_combination = won?(board)
-    board [win_combination[0]]
+    board[win_combination[0]]
   end
+  # if the game has been won, return the first element in the winning combination (which will be either X or O). The element is the winner of the game
 end
